@@ -5,6 +5,10 @@ font-weight: 400;
 font-size: 19px;
 }
 
+.collapsible-body, span{
+     text-align: justify;
+    hyphens: auto;
+}
  .fish, b{
     font-size: 15px; 
     font-weight: bold;
