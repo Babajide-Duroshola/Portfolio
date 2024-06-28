@@ -28,7 +28,10 @@ li>a:hover{
 div .hoverable{
     height: 350px !important;
   }
-
+.modal-content{
+     text-align: justify;
+    hyphens: auto;
+}
 #about p{
     text-align: justify;
     hyphens: auto;
