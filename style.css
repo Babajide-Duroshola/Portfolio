@@ -3,11 +3,18 @@
     text-align: left;
 }
  .modal-content{
-     text-align: left;
+     text-align: left !important;
+   hyphens: auto;
 }
 }
+
+/*  .modal-content{
+    text-align: justify;
+    hyphens: auto;
+} */
 .para{
- text-align: left;
+ text-align: left !important;
+  hyphens: auto;
 }
 .collapsible-header, .collapsible-body{
 
@@ -43,10 +50,7 @@ li>a:hover{
 div .hoverable{
     height: 350px !important;
   }
-.modal-content{
-     text-align: justify;
-    hyphens: auto;
-}
+
 #about p{
     text-align: justify;
     hyphens: auto;
