@@ -2,6 +2,9 @@
  #about p{
     text-align: left;
 }
+ .modal-content{
+     text-align: left;
+}
 }
 
 .collapsible-header, .collapsible-body{
