@@ -1,0 +1,72 @@
+.collapsible-header, .collapsible-body{
+
+    font-family: Crimson Text, serif;
+font-weight: 400;
+font-size: 19px;
+}
+
+ .fish, b{
+    font-size: 15px; 
+    font-weight: bold;
+}
+#home {
+    background-color: rgb(104, 55, 55);
+    color: #333;
+    height: auto;
+    font-family: "Playwrite IT Moderna", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.head{
+    color: white !important;
+}
+
+li>a:hover{
+    color: red;
+}
+div .hoverable{
+    height: 350px !important;
+  }
+
+#about p{
+    text-align: justify;
+}
+
+#body{
+    font-family: "Trochut", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (min-width: 1367px) {
+   div .big{
+        padding-top: 150px !important; 
+        
+    }
+    div .big p{
+        font-size: 17px;
+    }
+    .head{
+        font-size: 35px;
+        color: black;
+    }
+}
+
+@media (max-width: 1366px){
+
+    .head{
+        font-size: 25px;
+        padding-top: 60px !important; 
+        color: black;
+    }
+    div .big p{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1180px){
+    #home {
+        height: auto;
+    }
+}
