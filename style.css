@@ -6,7 +6,9 @@
      text-align: left;
 }
 }
-
+.para{
+ text-align: left;
+}
 .collapsible-header, .collapsible-body{
 
     font-family: Crimson Text, serif;
