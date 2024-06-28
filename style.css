@@ -1,6 +1,7 @@
 @media screen and (max-width: 480px) {
  #about p{
-    text-align: left;
+    text-align: left !mportant;
+     hyphens: auto;
 }
  .modal-content{
      text-align: left !important;
@@ -8,10 +9,10 @@
 }
 }
 
-/*  .modal-content{
-    text-align: justify;
+ .modal-content{
+    text-align: left !important;
     hyphens: auto;
-} */
+}
 .para{
  text-align: left !important;
   hyphens: auto;
@@ -76,6 +77,7 @@ div .hoverable{
     }
     #about p{
     text-align: justify;
+     hyphens: auto;
 } 
     
 }
