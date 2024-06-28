@@ -29,9 +29,10 @@ div .hoverable{
     height: 350px !important;
   }
 
-/* #about p{
+#about p{
     text-align: justify;
-} */
+    hyphens: auto;
+}
 
 #body{
     font-family: "Trochut", sans-serif;
